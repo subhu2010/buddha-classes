@@ -1,0 +1,30 @@
+/*career start*/
+.career-list li {
+    list-style: none;
+    border-bottom: 1px solid #000;
+}
+.career-list li:last-child {
+    border-bottom: none;
+}
+.career-list li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+.career-list li .learn-btn {
+    padding: 12px 30px;
+    border-radius: 3px;
+    background-color: var(--primary-color);
+    color: #fff;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    display: inline-block;
+}
+.job-title span {
+    display: block;
+    color: #959595;
+    font-weight: normal;
+}
+/*career end*/
